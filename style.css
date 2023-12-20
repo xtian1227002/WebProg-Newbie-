@@ -1,0 +1,96 @@
+body {
+    margin-top: 13%;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+  }
+  
+  .container {
+    max-width: 1500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    margin-left: 18%;
+  }
+  
+  .card {
+    background-color: hsl(244, 38%, 16%);
+    padding: 80px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: hsl(0, 0%, 100%);
+    flex-grow: 1;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 0%;
+    z-index: 2; /* Ensure card is above the overlay */
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 100%; /* Adjust as needed */
+    text-align: left;
+    margin-right: 20px;
+  }
+  .image-container .tint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 82%;
+    height: 96.5%;
+    background: hsla(278, 47%, 32%, 0.504); /* Tint color */
+    z-index: 1; /* Ensure the tint is above the image */
+    border-radius: 10px;
+  }
+  
+.image-container img {
+    width: 70%;
+    height: 70%;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    filter:  hsl(277, 64%, 61%);
+}
+
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  p.accent {
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+  }
+  
+  .stat-numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust as needed */
+    margin-right: 50px;
+  }
+  
+  .stat-number {
+    font-weight: 700;
+    color: white;
+    flex-grow: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .attribution {
+    margin-top: 3%;
+    font-size: 11px;
+    text-align: center;
+    color: white
+  }
+.stat-text
+{
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+}
